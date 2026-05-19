@@ -13,7 +13,7 @@ Python, Streamlit, SQLite, pandas.
 └── database.sql    # Schema
 
 ## Setup
-pip install streamlit pandas
+pip install streamlit pandas  
 streamlit run app.py
 
 The app opens at http://localhost:8501.
@@ -25,7 +25,8 @@ The app opens at http://localhost:8501.
 
 ## Database
 
-Four tables: Rooms, Customers, Reservations, Payments. A trigger sets payment_time automatically on insert.
+Four tables: Rooms, Customers, Reservations, Payments.  
+A trigger sets payment_time automatically on insert.
 
 ## Known Limitations
 
